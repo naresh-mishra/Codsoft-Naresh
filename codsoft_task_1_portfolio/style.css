@@ -1,0 +1,470 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family:'Poppins',sans-serif;
+    background-color:rgb(11, 11, 56);
+    color:white;
+}
+.navbar{
+    height:4rem;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color:rgb(18 18 81);
+
+}
+nav .left-side{
+    font-size:24px;
+    font-weight:bold;
+}
+nav .left-side:hover{
+   font-size:25px;
+}
+nav ul li{
+    font-size:16px;
+    list-style:none;
+    margin-left:4rem;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+nav ul li a:hover{
+    font-size:17px;
+    text-decoration:underline;
+}
+nav ul{
+    display:flex;
+    flex-direction:row;
+}
+/* ----- */
+ .first{
+    display:flex;
+    flex-direction:row; 
+    align-items:center;
+    justify-content:space-evenly;
+    height:32rem;
+    width:100%;
+    /* background-color:red;  */
+}
+ .left-section{
+   /* background-color:red; */
+
+}
+ .right-section{
+  /* background-color: yellow; */
+}
+.right-section .first-img{
+    height:25rem;
+}
+.right-section .first-img:hover{
+    height:26rem;
+}
+
+.first-line{
+  font-size:35px;
+}
+.first-line .name{
+  color:#204fc9;
+  text-decoration:underline;
+  font-weight: bold;
+}
+.second-line{
+    font-size:35px;
+}
+#element{
+    font-size:20px;
+}
+/* line break */
+.break{
+    height:2px;
+    background-color:#142a62;
+}
+/* second-section */
+.second{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  /* background-color: black; */
+}
+.second .top{
+   font-size:36px;
+   margin:14px;
+   color:#4575f2;
+   font-weight: bold;
+}
+.second .top:hover{
+    font-size:38px;
+    text-decoration: underline;
+}
+.second .middle{
+  margin:0rem  7rem 0rem 7rem;
+  font-size:20px;
+  line-height: 2;
+}
+.second .bottom{
+    font-size:20px;
+    margin:0.7rem  0rem 0.7rem 0rem;
+    font-weight:bold;
+}
+.second .btn{
+    height:2.3rem;
+    width:10.5rem;
+    padding:0.15rem;
+    margin:0.25rem;
+    border:2px solid black;
+    border-radius:2rem;
+    font-size:1rem;
+    font-weight: 600;
+    background-color:#f22424;
+}
+.second .btn .btn-in{
+    color:white;
+    text-decoration: none;
+}
+.second .btn .btn-in:hover{
+    height:2.5rem;
+    width:11rem;
+    color:black;
+}
+
+.break{
+    height:2px;
+    background-color:#142a62;
+    margin:10px;
+}
+/* third */
+ .third{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+ .third .third-first{
+    font-size:36px;
+    margin:10px;
+    color:#4575f2;;
+    font-weight: bold;
+    align-items:center;
+}
+.third .third-first:hover{
+    font-size: 38px;
+    text-decoration: underline;
+}
+.third .second{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.third .img-skill{
+    height:8rem;
+    width:8rem;
+    /* background-color:white; */
+    margin:1rem 1.5rem 2rem 1.5rem ;
+    border-radius: 15%;
+  }
+  .third .img-skill:hover{
+    height:8.3rem;
+    width:8.3rem;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+  }
+  .four{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+  .four .four-first{
+    font-size:36px;
+    margin:10px;
+    color:#4575f2;
+    font-weight:bold;
+    align-items:center;
+}
+.four .four-first:hover{
+    font-size: 38px;
+    text-decoration: underline;
+   
+}
+.four .four-second{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    
+}
+.four .prj{
+    height:15rem;
+    width:17rem;
+    /* background-color: red; */
+    margin:1rem 2rem 2rem 2rem;
+    /* border-radius: 15%; */
+}
+.four .prj img{
+    height:13rem;
+    width:17rem;
+    background-color:white;
+    border-radius: 3%;
+}
+.four .prj img:hover{
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+.four .prj .prj-title{
+    font-weight:bold;
+    font-size:1rem;
+    text-align:center;
+    color:white;
+    text-decoration: underline;
+}
+.four .prj .prj-title:hover{
+    font-size:1.1rem;
+}
+.five{
+    margin:2rem;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.five-left{
+    margin-right:10rem;
+}
+
+.five .contact-me{
+   font-size:50px;
+   font-weight:bold;
+   color:#4575f2;
+}
+.five .contact-me:hover{
+    text-decoration:underline;
+    font-size:52px;
+}
+.five .wrk-tgther{
+    font-size:1.3rem;
+    margin-bottom:2rem;
+}
+.five .phoneno{
+    margin-bottom: 1rem;
+}
+.five-right{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-top:3rem;
+}
+.five-right .five-text{
+    height:2rem;
+    width:20rem;
+    margin:0.15rem;
+    padding:0.15rem;
+    color:black;
+    border-radius:0.5rem;
+}
+.five-right .five-text1{
+    height:10rem;
+    width:20rem;
+    margin:0.15rem;
+    padding:0.15rem;
+   color:black;
+   border-radius:0.5rem;
+}
+.five-right button{
+    height:2.3rem;
+    width:20.5rem;
+    padding:0.15rem;
+    margin:0.25rem;
+    border:2px solid black;
+    border-radius:2rem;
+    font-size:1rem;
+    font-weight: 600;
+    color:white;
+    background-color:#245ef2;
+}
+.five-right button:hover{
+    height:2.5rem;
+    width:21rem;
+    background-color:#0c4ced;
+    color:black;
+}
+.five .contactlogo img{
+    height:2rem;
+    width:2rem;
+    margin:0.5rem;
+}
+
+.five .contactlogo img:hover{
+    height:2.2rem;
+    width:2.2rem;
+}
+.footer{
+    background-color:#0938af;
+    text-align:center;
+    padding:0.5rem;
+    
+}
+.footer:hover{
+    text-decoration:underline;
+    font-weight:600;
+}
+@media(min-width:0px) and (max-width:1330px){
+    .third .img-skill{
+        height:6rem;
+        width:6rem;
+        /* background-color:white; */
+        margin:0.5rem 0.7rem 1rem 0.5rem ;
+        border-radius: 5%;
+      }
+      .third .img-skill:hover{
+        height:6.1rem;
+        width:6.1rem;
+        filter: blur(1px);
+        -webkit-filter: blur(1px);
+      }
+}
+@media(min-width:0px) and (max-width:1052px){
+    .four .four-second{
+     display: flex;
+     flex-direction:column;
+   }
+   .four .prj{
+    height:21rem;
+    width:28rem;
+    /* background-color: red; */
+    margin:1rem 2rem 2rem 2rem;
+    /* border-radius: 15%; */
+}
+.four .prj img{
+    height:20rem;
+    width:28rem;
+    background-color:white;
+    border-radius: 3%;
+}
+.four .prj .prj-title{
+    margin:1rem;
+}
+}
+@media(min-width:0px) and (max-width:877px){
+  .five{
+    display:flex ;
+  flex-direction: column;
+  }
+  .five-left{
+    margin-left:5rem;
+  }
+}
+@media(min-width:0px) and (max-width:800px){
+    .navbar{
+        height:8rem;
+    }
+    .navbar .nav-option{
+        display:block;
+        overflow :hidden;
+    }
+    .second .middle{
+        margin:0rem  2rem 0rem 2rem;
+        font-size:15px;
+        line-height: 1.5;
+      }
+}
+@media(min-width:0px) and (max-width:620px){
+   .first img{
+     display:none;
+   }
+   .first .left-section{
+    margin:1rem;
+   }
+   .navbar .nav-option{
+    display:none;
+}
+.second .btn{
+    height:2.0rem;
+    width:8.5rem;
+}
+.third .img-skill{
+    height:4rem;
+    width:4rem;
+    /* background-color:white; */
+    margin:0.5rem 0.7rem 1rem 0.5rem ;
+    border-radius: 5%;
+  }
+  .third .img-skill:hover{
+    height:4.1rem;
+    width:4.1rem;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+  }
+.four .prj{
+    height:17rem;
+    width:15rem;
+    /* background-color: red; */
+    margin:1rem 2rem 2rem 2rem;
+    /* border-radius: 15%; */
+}
+.four .prj img{
+    height:16rem;
+    width:15rem;
+    background-color:white;
+    border-radius: 3%;
+}
+.five-left{
+    margin-right:10rem;
+}
+
+.five .contact-me{
+   font-size:30px;
+   margin-left:2.8rem;
+}
+.five .contact-me:hover{
+    text-decoration:underline;
+    font-size:31px;
+}
+.five .wrk-tgther{
+    font-size:1rem;
+    margin-left:3rem;
+}
+.five .phoneno{
+    margin:0rem 0rem 1rem 2rem;
+}
+.five .email{
+    display:none;
+}
+
+.five-right .five-text{
+    height:1.5rem;
+    width:12rem;
+}
+.five-right .five-text1{
+    height:7rem;
+    width:12rem;
+}
+.five-right button{
+    height:2rem;
+    width:12rem;
+}
+.five-right button:hover{
+    height:2rem;
+    width:12rem;
+}
+.five .contactlogo img{
+    height:1.5rem;
+    width:1.5rem;
+    margin: 0.1rem 0.1rem 0rem 3rem;
+}
+
+.five .contactlogo img:hover{
+    height:1.6rem;
+    width:1.6rem;
+}
+}
+
